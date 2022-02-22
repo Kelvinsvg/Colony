@@ -1,0 +1,1561 @@
+*{
+    box-sizing: 1px;
+    margin: 0px auto;
+    padding: 0px auto;
+
+}
+
+.color{
+	height: 550px;
+	width: 100%;
+	background-color: red;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+
+
+}
+#Heading{
+	border: none;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+	position: sticky;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+	height: 68px;
+}
+#logo{
+	height: 45px;
+	width: 245px;
+	margin-top: 22px;
+	margin-left: 35px;
+	z-index: 2;
+
+}
+
+.color ul{
+	list-style-type: none;
+	float: right;
+	position: absolute;
+	right: 5%;
+	top: 78px;
+	font-size: 120%;
+	font-family: sans-serif;
+	margin-top: -43px;
+
+	
+}
+ul li{
+	display: inline;
+	padding-left: 15px;
+	padding: 10px;
+	cursor: pointer;
+	z-index: 2;
+
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	
+}
+ul li:hover{
+	background-color: darkblue;
+	padding: 10px;
+	border-radius: 10px;
+
+
+}      
+.lists{
+	border: 1px solid white;
+	height: 340px;
+	width: 300px;
+	margin-left: 600px;
+   display: none;
+   visibility: hidden;
+ 
+
+}
+ 
+#times{
+	color: dodgerblue;
+	position: absolute;
+	font-size: 30px;
+	margin-left: -30px;
+	margin-top: -2px;
+	cursor: pointer;
+
+
+}
+
+
+.lists li{
+	list-style-type: none;
+	padding: 20px;
+	cursor: pointer;
+      
+}
+
+.Grow{
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 220%;
+	margin-top: 120px;
+	padding: 10px;
+	padding-left: 30px;
+}
+#space{
+	margin-top: 120px;
+
+}
+
+.Grow{
+	margin-top: 65px;
+
+}
+.Grow li{
+	display: inline;
+	color: white;
+
+	
+}
+#subhead{
+
+	margin-left: 30px;
+	font-size: 23px;
+	font-family: serif;
+	color: white;
+	margin-top: 10px;
+	
+
+}
+#icon{
+	height: 350px;
+	width: 35%;
+	float: right;
+	right: 8%;
+	margin-top: -185px;
+
+
+}
+#arrow{
+	height: 50px;
+	width: 50px;
+	margin-top: 80px;
+	cursor: pointer;
+	margin-left: 30px;
+
+}
+
+#text{
+	padding-left: 135px;
+	margin-top: -40px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.About{
+	border: none;
+	background-color: whitesmoke;
+	height: 280px;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: -20px;
+
+	
+	
+}
+#heading{
+	padding-left: 35px;
+	margin-top: 30px;
+	
+}
+#line{
+
+	width: 30px;
+	margin-left: 35px;
+	height: 2px;
+	background-color: gray;
+	margin-top: 16px;
+}
+#Aboutcolony{
+	margin-top: 20px;
+	padding-left: 35px;
+	font-family: serif;
+	font-size: 18px;
+	color: black;
+}
+.Offer{
+	
+	margin-left: 0px;
+	
+	
+}
+#sec-heading{
+	padding-left: 35px;
+	
+}
+#sec-line{
+
+	width: 30px;
+	margin-left: 35px;
+	height: 2px;
+	background-color: gray;
+	margin-top: 17px;
+}
+#Whatoffer{
+	margin-top: 20px;
+	padding-left: 35px;
+	font-family: serif;
+	font-size: 18px;
+	color: black;
+}
+#Branding{
+	height: 55px;
+	width: 5%;
+	margin-left: 35px;
+	margin-top: 35px;
+}
+#brand{
+	padding-left: 35px;
+	margin-top: 15px;
+	font-family: serif;
+	font-size: 20px;
+}
+#stunning{
+	padding-left: 35px;
+	margin-top: 15px;
+	font-family: serif;
+	font-size: 18px;
+
+}
+#cloud{
+	height: 55px;
+	width: 5%;
+	margin-left: 35px;
+	margin-top: 35px;
+}
+#marketing{
+	padding-left: 35px;
+	margin-top: 15px;
+	font-family: serif;
+	font-size: 20px;
+}
+#digital{
+	padding-left: 35px;
+	margin-top: 15px;
+	font-family: serif;
+	font-size: 18px;
+
+}
+#Web{
+	height: 55px;
+	width: 5%;
+	margin-left: 500px;
+	margin-top: -365px;
+	position: absolute;
+}
+#app{
+	padding-left: 500px;
+	margin-top: -295px;
+	font-family: serif;
+	font-size: 20px;
+}
+#development{
+	padding-left: 500px;
+	margin-top: 15px;
+	font-family: serif;
+	font-size: 18px;
+
+}
+
+.footer{
+	height: 220px;
+	width: 100%;
+	background-image: linear-gradient(to right, dodgerblue, mediumblue);
+	margin-top: 200px;
+	color: white;
+
+}
+#Started{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font-size: 20px;
+
+}
+#send{
+	padding-left: 35px;
+	font-family: serif;
+	font-size: 18px;
+
+}
+button{
+	margin-top: 20px;
+	margin-left: 35px;
+	padding: 10px;
+	font-family: serif;
+	font-size: 22px;
+	background-color: mediumblue;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	float: right;
+	right: 3%;
+	position: absolute;
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	body{
+		background-color: none;
+
+}
+.color{
+	width: 100%;
+
+}
+.color ul{
+	
+	float: right;
+	right: 3%;
+	font-size: 110%;
+	font-family: sans-serif;
+	margin-top: -48px;
+
+}
+ul li{
+	display: inline;
+	padding-left: 15px;
+	padding: 10px;
+	cursor: pointer;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+ul li:hover{
+	background-color: darkblue;
+	padding: 10px;
+	border-radius: 10px;
+
+
+}
+#logo{
+	height: 45px;
+	width: 230px;
+	margin-top: 15px;
+
+}
+#icon{
+	height: 55%;
+	width: 35%;
+	float: right;
+	right: 1%;
+	position: absolute;
+	margin-top: -165px;
+
+}
+
+.Grow{
+	
+	font-size: 190%;
+	
+}
+#arrow{
+	margin-top: 100px;
+
+}
+#subhead{ 
+	font-size: 121%;
+	
+}
+#heading{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font-size: 140%;
+	
+}
+#line{
+
+	width: 25px;
+	
+}
+#Aboutcolony{
+	margin-top: 20px;
+	padding-left: 35px;
+	font-family: serif;
+	font-size: 105%;
+	
+}
+.Offer{
+	
+	margin-left: 0px;
+	
+	
+}
+#sec-heading{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font-size: 140%;
+
+	
+}
+#sec-line{
+
+	width: 25px;
+	
+}
+#Whatoffer{
+	
+	font-size: 105%;
+	
+}
+#Branding{
+	height: 50px;
+	
+}
+#brand{
+	
+	font-size: 105%;
+	font-family: sans-serif;
+}
+#stunning{
+	font-size: 105%;
+
+}
+#cloud{
+	height: 50px;
+	
+}
+#marketing{
+	
+	font-size: 105%;
+	font-family: sans-serif;
+}
+#digital{
+	font-family: serif;
+	font-size: 105%;
+
+}
+#Web{
+	height: 50px;
+	margin-left: 400px;
+	margin-top: -355px;
+
+	
+}
+#app{
+	padding-left: 400px;
+	margin-top: -290px;
+	font-family: sans-serif;
+	font-size: 105%;
+}
+#development{
+	padding-left: 400px;
+	margin-top: 5px;
+	font-family: serif;
+	font-size: 105%;
+
+}
+#Started{
+	font-size: 110%;
+
+}
+#send{
+	
+	font-size: 105%;
+
+}
+button{
+	
+	font-size: 115%;
+	
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	margin-left: 450px;
+
+
+}
+
+}
+
+@media (min-width: 651px) and (max-width: 767px){
+	body{
+		background-color: none;
+
+}
+.color{
+	width: 100%;
+    height: 450px;
+}
+.color ul{
+	
+	float: right;
+	position: absolute;
+	right: 3%;
+	font-size: 95%;
+	font-family: sans-serif;
+	display: none;
+
+}
+.Heading{
+	border: none;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+	position: sticky;
+	top: 0;
+	position: fixed;
+	height: 68px;
+
+
+}
+.Grow{
+	margin-top: -10px;
+	font-size: 160%;
+
+}
+#subhead{
+	font-family: serif;
+	font-size: 117%;
+	margin-top: 35px;
+
+}
+#arrow{
+	height: 40px;
+	width: 40px;
+
+
+}
+#text{
+	font-family:sans-serif; 
+	font-size: 125%;
+	margin-top: -35px;
+
+}
+#logo{
+	height: 45px;
+	width: 195px;
+	z-index: 2;
+	margin-top: 15px;
+
+}
+#icon{
+	height: 55%;
+	width: 35%;
+	float: right;
+	right: 5%;
+	position: absolute;
+	margin-top: -185px;
+	display: none;
+
+}
+.navspan {
+  cursor: pointer;
+  float: right;
+  right: 2%;
+  margin-top: -425px;  
+  overflow-y: hidden;
+  position: sticky;
+  z-index:2;
+  position: fixed;
+  
+
+  
+
+
+
+}
+.navspan span{
+  border: 1px solid white;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: relative;
+  margin-top: 4px;
+  display: block;
+  border: none;
+ 
+ 
+}
+.lists{
+  background-color: gray;
+  height: 200px;
+  width: 25%;
+  margin-left: 5px;
+  visibility: visible;
+  z-index: 1;
+  position: absolute;
+  overflow-y: hidden;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  border-radius: 10px;
+  position: fixed;
+  margin-top: 100px;
+
+}
+.lists li:hover{
+ background-color: dodgerblue;
+ transition: 1s;
+ 
+
+        
+        
+
+}
+#times{
+  color: red;
+  position: absolute;
+  font-size: 30px;
+  margin-left: -30px;
+  margin-top: -2px;
+  cursor: pointer;
+
+
+}
+
+
+.lists li{
+  display: block;
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+  padding: 10px;
+
+      
+}
+#arrow{
+	margin-top: 50px;
+
+}
+.About{
+	margin-top: -10px;
+	height: 350px;
+	
+
+
+}
+#heading{
+	font-size: 135%;
+	margin-top: 20px;
+
+}
+
+#line{
+	margin-top: 35px;
+
+}
+#Aboutcolony{
+	font-size: 105%;
+	margin-top: 50px;
+
+
+}
+
+.Offer{
+	
+	margin-left: 0px;
+
+
+	
+}
+#sec-line{
+	margin-top: 35px;
+
+}
+#sec-heading{
+
+	padding-left: 35px;
+	font-size: 135%;
+	margin-top: -80px;
+
+	
+}
+#Whatoffer{
+	font-size: 105%;
+	margin-top: 40px;
+	font-family: serif;
+
+
+}
+#Branding{
+	
+	height: 40px;
+	width: 7%;
+}
+#brand{
+	font-size: 125%;
+
+}
+#stunning{
+	font-size: 105%;
+
+}
+#cloud{
+	height: 40px;
+	width: 7%;
+	
+}
+#marketing{
+	
+	font-size: 125%;
+}
+#digital{
+	
+	font-size: 105%;
+
+}
+#Web{
+	height: 40px;
+	width: 7%;
+	margin-left: 35px;
+	margin-top: 35px;
+	
+}
+#app{
+	padding-left: 35px;
+	margin-top: 90px;
+	font-family: sans-serif;
+	font-size: 125%;
+}
+#development{
+	padding-left: 35px;
+	margin-top: 12px;
+	font-family: serif;
+	font-size: 105%;
+
+}
+.footer{
+	margin-top: -2px;
+
+}
+#Started{
+	font-size: 125%;
+}
+#send{
+	
+	font-size: 110%;
+
+}
+button{
+	
+	font-size: 125%;
+	
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	margin-left: 150px;
+
+
+}
+
+
+
+}
+
+@media (min-width: 551px) and (max-width: 650px){
+	body{
+		background-color: none;
+
+}
+.color{
+	width: 100%;
+    height: 450px;
+}
+.color ul{
+	
+	float: right;
+	position: absolute;
+	right: 3%;
+	font-size: 95%;
+	font-family: sans-serif;
+	display: none;
+
+}
+.Heading{
+	border: none;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+	position: sticky;
+	top: 0;
+	position: fixed;
+	
+	height: 68px;
+
+
+}
+.Grow{
+	margin-top: 10px;
+	font-size: 160%;
+
+}
+#logo{
+	height: 40px;
+	width: 190px;
+	z-index: 2;
+	margin-top: 15px;
+
+}
+#icon{
+	height: 55%;
+	width: 35%;
+	float: right;
+	right: 5%;
+	position: absolute;
+	margin-top: -185px;
+	display: none;
+
+}
+
+.navspan {
+  cursor: pointer;
+  float: right;
+  right: 2%;
+  margin-top: -428px;  
+  overflow-y: hidden;
+  position: sticky;
+  z-index:2;
+  position: fixed;
+  
+
+  
+
+
+
+}
+.navspan span{
+  border: 1px solid black;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: relative;
+  margin-top: 4px;
+  display: block;
+  border: none;
+ 
+ 
+}
+.lists{
+  background-color: gray;
+  height: 200px;
+  width: 35%;
+  margin-left: 5px;
+  visibility: visible;
+  z-index: 1;
+  position: absolute;
+  overflow-y: hidden;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  border-radius: 10px;
+  position: fixed;
+  margin-top: 100px;
+
+}
+.lists li:hover{
+ background-color: dodgerblue;
+ transition: 1s;
+ 
+
+        
+        
+
+}
+#times{
+  color: red;
+  position: absolute;
+  font-size: 30px;
+  margin-left: -30px;
+  margin-top: -2px;
+  cursor: pointer;
+
+
+}
+
+
+.lists li{
+  display: block;
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+  padding: 10px;
+
+      
+}
+#subhead{
+	margin-top: 45px;
+	font-family: serif;
+	font-size: 19px;
+
+}
+#arrow{
+	margin-top: 50px;
+	height: 40px;
+	width: 40px;
+
+}
+#text{
+	font-family:sans-serif;
+	margin-top: -37px;
+
+}
+.About{
+	margin-top: -10px;
+	height: 350px;
+	
+
+
+}
+#heading{
+	font-size: 140%;
+	margin-top: 20px;
+
+}
+
+#line{
+	margin-top: 35px;
+
+}
+#Aboutcolony{
+	font-size: 105%;
+	font-family: serif;
+	margin-top: 50px;
+
+
+}
+
+.Offer{
+	
+	margin-left: 0px;
+
+	
+}
+#sec-line{
+	margin-top: 35px;
+
+}
+#sec-heading{
+
+	padding-left: 35px;
+	font-size: 140%;
+	margin-top: -80px;
+
+	
+}
+#Whatoffer{
+	font-size: 105%;
+	margin-top: 40px;
+
+
+}
+#Branding{
+	
+	height: 40px;
+	width: 10%;
+}
+#brand{
+	font-size: 125%;
+
+}
+#stunning{
+	font-size: 105%;
+
+}
+#cloud{
+	height: 40px;
+	width: 10%;
+	
+}
+#marketing{
+	
+	font-size: 125%;
+}
+#digital{
+	
+	font-size: 105%;
+
+}
+#Web{
+	height: 40px;
+	width: 10%;
+	margin-left: 35px;
+	margin-top: 35px;
+	
+}
+#app{
+	padding-left: 35px;
+	margin-top: 90px;
+	font-family: sans-serif;
+	font-size: 125%;
+}
+#development{
+	padding-left: 35px;
+	margin-top: 12px;
+	font-family: serif;
+	font-size: 105%;
+
+}
+.footer{
+	margin-top: -2px;
+
+}
+#Started{
+	font-size: 125%;
+}
+#send{
+	
+	font-size: 105%;
+
+}
+button{
+	
+	font-size: 125%;
+	
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	margin-left: 150px;
+
+
+}
+
+
+
+}
+
+@media (min-width: 420px) and (max-width: 550px){
+	body{
+		background-color: none;
+
+}
+.color{
+	width: 100%;
+    height: 450px;
+}
+.color ul{
+	
+	float: right;
+	position: absolute;
+	right: 3%;
+	font-size: 95%;
+	font-family: sans-serif;
+	display: none;
+
+}
+.Heading{
+	border: none;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+	position: sticky;
+	top: 0;
+	position: fixed;
+	height: 68px;
+
+
+}
+.Grow{
+	margin-top: -20px;
+	
+
+}
+.Grow li{
+	font-size: 75%;
+	
+
+}
+#subhead{
+	font-family: serif;
+	font-size: 110%;
+	margin-top: 50px;
+
+}
+#logo{
+	height: 40px;
+	width: 215px;
+	z-index: 2;
+	margin-top: ;
+
+}
+#icon{
+	height: 55%;
+	width: 35%;
+	float: right;
+	right: 5%;
+	position: absolute;
+	margin-top: -185px;
+	display: none;
+
+}
+.navspan {
+  cursor: pointer;
+  float: right;
+  right: 2%;
+  margin-top: -420px;  
+  overflow-y: hidden;
+  position: sticky;
+  z-index:2;
+  position: fixed;
+  
+
+  
+
+
+
+}
+.navspan span{
+  border: 1px solid black;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: relative;
+  margin-top: 4px;
+  display: block;
+  border: none;
+ 
+ 
+}
+.lists{
+  background-color: gray;
+  height: 200px;
+  width: 40%;
+  margin-left: 5px;
+  visibility: visible;
+  z-index: 1;
+  position: absolute;
+  overflow-y: hidden;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  border-radius: 10px;
+  position: fixed;
+  margin-top: 100px;
+
+}
+.lists li:hover{
+ background-color: dodgerblue;
+ transition: 1s;
+ 
+
+        
+        
+
+}
+#times{
+  color: red;
+  position: absolute;
+  font-size: 30px;
+  margin-left: -30px;
+  margin-top: -2px;
+  cursor: pointer;
+
+
+}
+
+
+.lists li{
+  display: block;
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+  padding: 10px;
+
+
+
+      
+}
+#arrow{
+	margin-top: 40px;
+	height: 40px;
+	width: 40px;
+
+}
+#text{
+	font-size: 105%;
+	margin-top: -30px;
+
+}
+.About{
+	margin-top: -30px;
+	font-size: 98%;
+	height: 350px;
+
+}
+#heading{
+	font-size: 135%;
+	margin-top: 10px;
+
+}
+
+#line{
+	margin-top: 35px;
+
+}
+#Aboutcolony{
+	font-size: 99%;
+	margin-top: 50px;
+	font-family: serif;
+
+
+}
+
+.Offer{
+	
+	margin-left: 0px;
+
+	
+}
+#sec-line{
+	margin-top: 35px;
+
+}
+#sec-heading{
+
+	padding-left: 35px;
+	font-size: 133%;
+	margin-top: -80px;
+
+	
+}
+#Whatoffer{
+	font-size: 98%;
+	margin-top: 40px;
+
+
+}
+#Branding{
+	
+	height: 35px;
+	width: 10%;
+}
+#stunning{
+	font-size: 98%;
+
+}
+#cloud{
+	height: 35px;
+	width: 10%;
+	
+}
+#marketing{
+	
+	font-size: 100%;
+}
+#digital{
+	
+	font-size: 98%;
+
+}
+#Web{
+	height: 35px;
+	width: 10%;
+	margin-left: 35px;
+	margin-top: 35px;
+	
+}
+#app{
+	padding-left: 35px;
+	margin-top: 90px;
+	font-family: sans-serif;
+	font-size: 100%;
+}
+#development{
+	padding-left: 35px;
+	margin-top: 12px;
+	font-family: serif;
+	font-size: 98%;
+
+}
+.footer{
+	margin-top: -2px;
+
+}
+#Started{
+	font-size: 110%;
+}
+#send{
+	
+	font-size: 98%;
+
+}
+button{
+	
+	font-size: 110%;
+	
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	margin-left: 150px;
+
+
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 420px){
+	body{
+		background-color: none;
+
+}
+.color{
+	width: 100%;
+    height: 430px;
+}
+.color ul{
+	
+	float: right;
+	position: absolute;
+	right: 3%;
+	font-size: 95%;
+	font-family: sans-serif;
+	display: none;
+	z-index: -3;
+
+}
+.Heading{
+	border: none;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+	position: sticky;
+	top: 0;
+	position: fixed; 
+	height: 68px;
+}
+#logo{
+	
+	height: 35px;
+	width: 50%;
+	margin-top: 20px;
+	z-index: 3;
+
+}
+#text{
+	font-size: 100%;
+	margin-top: -32px;
+
+}
+#icon{
+	display: none;
+
+}
+.navspan {
+  cursor: pointer;
+  float: right;
+  right: 2%;
+  margin-top: -405px;  
+  overflow-y: hidden;
+  position: sticky;
+  z-index:2;
+  position: fixed;
+  
+
+  
+
+
+
+}
+.navspan span{
+  border: 1px solid black;
+  height: 4px;
+  width: 30px;
+  background: white;
+  position: relative;
+  margin-top: 4px;
+  display: block;
+  border: none;
+ 
+ 
+}
+.lists{
+  background-color: gray;
+  height: 200px;
+  width: 45%;
+  margin-left: 5px;
+  visibility: visible;
+  z-index: 1;
+  position: absolute;
+  overflow-y: hidden;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  border-radius: 10px;
+  position: fixed;
+  margin-top: 80px;
+
+}
+.lists li:hover{
+ background-color: dodgerblue;
+ transition: 1s;
+ 
+
+        
+        
+
+}
+#times{
+  color: red;
+  position: absolute;
+  font-size: 30px;
+  margin-left: -30px;
+  margin-top: -2px;
+  cursor: pointer;
+
+
+}
+
+
+.lists li{
+  display: block;
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+  padding: 10px;
+
+
+
+      
+}
+.Grow{
+	margin-top: -15px;
+
+}
+.Grow li{
+	font-size: 70%;
+	margin-top: -170px;
+
+}
+#subhead{
+	font-size: 100%;
+	font-family: serif;
+	margin-top: 50px;
+
+}
+#arrow{
+
+	margin-top: 35px;
+	height: 35px;
+	width: 35px;
+
+}
+#text{
+	padding-left: 100px;
+
+}
+#heading{
+	font-size: 135%;
+
+}
+.About{
+	margin-top: -50;
+	height: 300px;
+	font-size: 90%;
+	
+}
+
+#Aboutcolony{
+	font-size: 98%;
+    
+}
+.Offer{
+	
+	margin-top: -75px;
+
+	
+}
+#sec-heading{
+	font-size: 120%;
+
+
+}
+#Whatoffer{
+	font-size: 98%; 
+
+}
+#Branding{
+	
+	height: 35px;
+	width: 13%;
+}
+#brand{
+	font-size: 120%;
+
+}
+#stunning{
+	font-size: 98%;
+
+}
+#cloud{
+	height: 35px;
+	width: 13%;
+	
+}
+#marketing{
+	
+	font-size: 120%;
+}
+#digital{
+	
+	font-size: 98%;
+
+}
+#Web{
+	height: 35px;
+	width: 13%;
+	margin-left: 35px;
+	margin-top: 35px;
+	
+}
+#app{
+	padding-left: 35px;
+	margin-top: 90px;
+	font-family: sans-serif;
+	font-size: 120%;
+}
+#development{
+	padding-left: 35px;
+	margin-top: 12px;
+	font-family: serif;
+	font-size: 98%;
+
+}
+.footer{
+	margin-top: 20px;
+
+}
+#Started{
+	font-size: 95%;
+}
+#send{
+	
+	font-size: 90%;
+
+}
+button{
+	
+	font-size: 100%;
+	
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	margin-left: 60px;
+
+
+}
+
+}

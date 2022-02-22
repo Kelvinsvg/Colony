@@ -1,0 +1,832 @@
+*{
+    box-sizing: 1px;
+    margin: 0px auto;
+    padding: 0px auto;
+
+}
+.Nav{
+	height: 80px;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+
+}
+.Heading{
+	border: none;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+	position: sticky;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+	height: 68px;
+
+
+}
+#logo{
+	height: 40px;
+	width: 240px;
+	margin-top: 19px;
+	margin-left: 30px;
+
+}
+.Nav ul{
+	list-style-type: none;
+	float: right;
+	position: absolute;
+	right: 5%;
+	top: 28px;
+	font-size: 120%;
+	font-family: sans-serif;
+	color: white;
+	
+
+}
+ul li{
+	display: inline;
+	padding-left: 15px;
+	padding: 10px;
+	cursor: pointer;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+ul li:hover{
+	background-color: darkblue;
+	padding: 10px;
+	border-radius: 10px;
+
+
+}
+.lists{
+	border: 1px solid white;
+	height: 340px;
+	width: 300px;
+	margin-left: 600px;
+   display: none;
+   visibility: hidden;
+ 
+
+}
+.stay{
+	border: none;
+	background-color: darkblue;
+	border-radius: 10px;
+	padding: 10px;
+
+}
+h1{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font: 20px;
+
+}
+#line{
+
+	width: 30px;
+	margin-left: 35px;
+	height: 2px;
+	background-color: gray;
+	margin-top: 16px;
+}
+#address{
+	font-family: sans-serif;
+	font-size: 16px;
+	padding-left: 35px;
+	margin-top: 20px;
+
+}
+#Get{
+	font-family: sans-serif;
+	font-size: 16px;
+	padding-left: 35px;
+	margin-top: 20px;
+
+
+}
+#call{
+	font-family: sans-serif;
+	font-size: 16px;
+	padding-left: 35px;
+	margin-top: 100px;
+
+
+}
+.footer{
+	height: 220px;
+	width: 100%;
+	background-image: linear-gradient(to right, dodgerblue, mediumblue);
+	margin-top: 0px;
+	color: white;
+
+}
+#Started{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font-size: 20px;
+
+}
+#send{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font: 16px;
+
+}
+button{
+	margin-top: 20px;
+	margin-left: 35px;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 22px;
+	background-color: mediumblue;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	float: right;
+	right: 3%;
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	body{
+		background-color: none;
+
+}
+.Nav{
+	width: 100%;
+
+}
+.Nav ul{
+	
+	float: right;
+	position: absolute;
+	right: 3%;
+	font-size: 115%;
+	font-family: sans-serif;
+
+}
+
+h1{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font-size:140%;
+
+}
+#address{
+	font-family: sans-serif;
+	font-size: 100%;
+	
+
+}
+#Get{
+	font-family: sans-serif;
+	font-size: 100%;
+	
+
+}
+#call{
+	font-family: sans-serif;
+	font-size: 100%;
+	
+
+}
+#Started{
+	font-size: 120%;
+
+}
+#send{
+	
+	font-size: 105%;
+
+}
+button{
+	
+	font-size: 120%;
+	
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	right: 3%;
+	position: absolute;
+
+}
+
+}
+@media (min-width: 651px) and (max-width: 767px){
+	body{
+		background-color: none;
+
+}
+.Nav{
+	height: 80px;
+
+}
+.Nav ul{
+	display: none;
+
+}
+h1{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font-size: 130%;
+	margin-top: 50px;
+
+}
+.Heading{
+	border: none;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+	position: sticky;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+
+
+}
+#logo{
+	height: 40px;
+	width: 215px;
+	margin-top: 20px;
+
+}
+.navspan{
+	float: right;
+	right: 3%;
+	margin-top: -53px;
+	cursor: pointer;
+	position: sticky;
+	position: fixed;
+	z-index: 2;
+
+}
+.navspan span{
+  border: 1px solid black;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: relative;
+  margin-top: 4px;
+  display: block;
+  border: none;
+  margin-left: 360px;
+}
+.lists{
+  background-color: gray;
+  border: 1px solid white;
+  height: 200px;
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 0px;
+  visibility: visible;
+  z-index: 2;
+  position: absolute;
+  overflow-y: hidden;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  position: fixed;
+   border-radius: 10px;
+
+
+}
+.lists li:hover{
+
+ background-color: dodgerblue;
+ transition: 1s;
+ color: white;
+ border-radius: 10px;
+
+        
+        
+
+}
+
+#times{
+  color: red;
+  position: absolute;
+  font-size: 30px;
+  margin-left: -30px;
+  margin-top: -2px;
+  cursor: pointer;
+
+
+}
+
+
+.lists li{
+  display: block;
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+  padding: 10px;
+
+}
+#address{
+	font-size: 100%;
+	
+
+}
+#Get{
+	
+	font-size: 100%;
+	
+
+}
+#call{
+	
+	font-size: 100%;
+	
+
+}
+#Started{
+	font-size: 115%;
+
+}
+#send{
+	
+	font-size: 100%;
+
+}
+button{
+	
+	font-size: 120%;
+	
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	right: 3%;
+	position: absolute;
+
+}
+
+
+}
+
+@media (min-width: 551px) and (max-width: 650px){
+	body{
+		background-color: none;
+
+}
+.Nav{
+	height: 80px;
+
+}
+.Nav ul{
+	display: none;
+
+}
+h1{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font-size: 120%;
+	margin-top: 50px;
+
+}
+.Heading{
+	border: none;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+	position: sticky;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+
+
+}
+#logo{
+	height: 40px;
+	width: 215px;
+	margin-top: 20px;
+
+}
+.navspan{
+	float: right;
+	right: 3%;
+	margin-top: -53px;
+	cursor: pointer;
+	position: sticky;
+	position: fixed;
+	z-index: 2;
+
+}
+.navspan span{
+  border: 1px solid black;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: relative;
+  margin-top: 4px;
+  display: block;
+  border: none;
+  margin-left: 360px;
+}
+.lists{
+  background-color: gray;
+  border: 1px solid white;
+  height: 200px;
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 0px;
+  visibility: visible;
+  z-index: 2;
+  position: absolute;
+  overflow-y: hidden;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  position: fixed;
+   border-radius: 10px;
+
+
+}
+.lists li:hover{
+
+ background-color: dodgerblue;
+ transition: 1s;
+ color: white;
+ border-radius: 10px;
+
+        
+        
+
+}
+
+#times{
+  color: red;
+  position: absolute;
+  font-size: 30px;
+  margin-left: -30px;
+  margin-top: -2px;
+  cursor: pointer;
+
+
+}
+
+
+.lists li{
+  display: block;
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+  padding: 10px;
+
+}
+#address{
+	font-size: 95%;
+	
+
+}
+#Get{
+	
+	font-size: 95%;
+	
+
+}
+#call{
+	
+	font-size: 95%;
+	
+
+}
+#Started{
+	font-size: 110%;
+
+}
+#send{
+	
+	font-size: 95%;
+
+}
+button{
+	
+	font-size: 115%;
+	
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	margin-left: 150px;
+
+
+}
+
+
+
+
+}
+@media (min-width: 421px) and (max-width: 550px){
+	body{
+		background-color: none;
+
+}
+.Nav{
+	height: 80px;
+
+}
+.Nav ul{
+	display: none;
+
+}
+h1{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font-size: 120%;
+	margin-top: 50px;
+
+}
+.Heading{
+	border: none;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+	position: sticky;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+
+
+}
+#logo{
+	height: 40px;
+	width: 215px;
+	margin-top: 20px;
+
+}
+.navspan{
+	float: right;
+	right: 3%;
+	margin-top: -53px;
+	cursor: pointer;
+	position: sticky;
+	position: fixed;
+	z-index: 2;
+
+}
+.navspan span{
+  border: 1px solid black;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: relative;
+  margin-top: 4px;
+  display: block;
+  border: none;
+  margin-left: 360px;
+}
+.lists{
+  background-color: gray;
+  border: 1px solid white;
+  height: 200px;
+  width: 48%;
+  margin-top: 100px;
+  margin-left: 0px;
+  visibility: visible;
+  z-index: 2;
+  position: absolute;
+  overflow-y: hidden;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  position: fixed;
+   border-radius: 10px;
+
+
+}
+.lists li:hover{
+
+ background-color: dodgerblue;
+ transition: 1s;
+ color: white;
+ border-radius: 10px;
+
+        
+        
+
+}
+
+#times{
+  color: red;
+  position: absolute;
+  font-size: 30px;
+  margin-left: -30px;
+  margin-top: -2px;
+  cursor: pointer;
+
+
+}
+
+
+.lists li{
+  display: block;
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+  padding: 10px;
+
+}
+#address{
+	font-size: 95%;
+	
+
+}
+#Get{
+	
+	font-size: 95%;
+	
+
+}
+#call{
+	
+	font-size: 95%;
+	
+
+}
+#Started{
+	font-size: 110%;
+
+}
+#send{
+	
+	font-size: 95%;
+
+}
+button{
+	
+	font-size: 115%;
+	
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	margin-left: 150px;
+
+
+}
+
+
+}
+
+@media (min-width: 320px) and (max-width: 420px){
+	body{
+		background-color: none;
+
+}
+.Nav{
+	height: 80px;
+
+}
+.Nav ul{
+	display: none;
+
+}
+h1{
+	padding-left: 35px;
+	font-family: sans-serif;
+	font-size: 115%;
+	margin-top: 50px;
+
+}
+.Heading{
+	border: none;
+	width: 100%;
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	margin-left: 0px;
+	position: sticky;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+
+
+}
+#logo{
+	height: 40px;
+	width: 175px;
+	margin-top: 20px;
+
+}
+.navspan{
+	float: right;
+	right: 3%;
+	margin-top: -50px;
+	cursor: pointer;
+	position: sticky;
+	position: fixed;
+	z-index: 2;
+
+}
+.navspan span{
+  border: 1px solid black;
+  height: 4px;
+  width: 30px;
+  background: white;
+  position: relative;
+  margin-top: 4px;
+  display: block;
+  border: none;
+  margin-left: 360px;
+}
+.lists{
+  background-color: gray;
+  border: 1px solid white;
+  height: 200px;
+  width: 45%;
+  margin-top: 100px;
+  margin-left: 0px;
+  visibility: visible;
+  z-index: 2;
+  position: absolute;
+  overflow-y: hidden;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  position: fixed;
+   border-radius: 10px;
+
+
+}
+.lists li:hover{
+
+ background-color: dodgerblue;
+ transition: 1s;
+ color: white;
+ border-radius: 10px;
+
+        
+        
+
+}
+
+#times{
+  color: red;
+  position: absolute;
+  font-size: 30px;
+  margin-left: -30px;
+  margin-top: -2px;
+  cursor: pointer;
+
+
+}
+
+
+.lists li{
+  display: block;
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+  padding: 10px;
+
+}
+#address{
+	font-size: 90%;
+	
+
+}
+#Get{
+	
+	font-size: 90%;
+	
+
+}
+#call{
+	
+	font-size: 90%;
+	
+
+}
+#Started{
+	font-size: 105%;
+
+}
+#send{
+	
+	font-size: 90%;
+
+}
+button{
+	
+	font-size: 110%;
+	
+}
+.Socialmedia{
+	padding: 5px;
+	display: inline;
+	right: 3%;
+	position: absolute;
+	
+
+
+}
+
+}

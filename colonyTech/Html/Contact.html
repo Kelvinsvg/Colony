@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="../css/Contact.css">
+	<link rel="manifest" href="manifest.json" />
+
+</head>
+<body>
+	<div class="Nav">
+	 <div class="Heading">	
+		<img id="logo" src="../images/logo.png">
+				<ul>
+					<li><a href="Login.html">Sign in</a></li>
+					<li> <a href="Home.html"> Home</a></li>
+					<li> <a href="About.html"> About</a></li>
+					<li> <a href="Work.html"> Work</a></li>
+					<li class="stay"><a href="Contact"> Contact</a></li>
+				</ul>
+		  </div>
+	</div>
+	 <div onclick="Navigation()" class="navspan" id="nav">
+  	<span></span>
+  	<span></span>
+  	<span></span>
+ 
+  </div>
+  <ul class="lists" id="Nav">
+  	<p id="times" onclick="Cancel()">&times;</p>
+  		<li><a href="Login.html">Sign in</a></li>
+  		    <li><a href="Home.html">Home</a></li>
+  		    <li><a href="About.html">About</a></li>
+  		    <li><a href="Work.html">Work</a></li>
+  		    <li><a href="Contact.html">Contact</a></li>
+  		   
+  	
+  			
+  	</ul>
+		<br>
+		<br>
+			<h1>
+				COME AROUND SOME DAY
+			</h1>
+			 	<hr id="line">
+			 		<p id="address">
+			 			Having you round would be fun, our address is:<br>20, Bello street, Ladipo, Lagos State.
+			 		</p>
+			 			<p id="Get"> <a style="color: gray" href="">Get direction.</a></p>
+			 				<p id="call">
+			 					Give us a call +234 8077201806 or send a<br>mail to colonytechng@gmail.com
+			 				</p>
+			 				<br>
+			 				<br>
+								<div class="footer">
+                                    <br>
+                                     <br>
+                                     <br>
+                                         <h3 id="Started">
+                                            Let's Get Started !
+                                         </h3>
+                                             <br>
+                                               <p id="send">
+                                                 Send us a mail colonytechng@gmail.com or<br>call +2348077201806
+                                                </p>
+                                                   <button>Give Colony a try</button>
+                            	
+                                  </div>
+                                      <div class="Socialmedia">
+          	                             <img style="height: 30px; margin-top: 15px;" src="../images/facebook.png">
+          	                             <img style="height: 30px; margin-left: 30px; margin-top: 15px;" src="../images/instagram.png">
+          	                             <img style="height: 30px; margin-left: 30px; margin-top: 15px;" src="../images/linked in.png">
+          	                             <img style="height: 30px;margin-left: 30px; margin-top: 15px;"  src="../images/Medium.png">
+                                 </div>
+
+</body>
+</html>
+
+<script type="text/javascript">
+	function Navigation() {
+		var x = document.getElementById('Nav');
+		x.style.backgroundColor = "";
+		x.style.display = "block";
+
+	}
+	function Cancel() {
+		var x = document.getElementById('Nav');
+		x.style.backgroundColor = "";
+		x.style.display = "none";
+
+	}
+
+</script>
